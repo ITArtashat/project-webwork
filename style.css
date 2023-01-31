@@ -1,0 +1,425 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #100C16;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* header */
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    margin-top: 10px;
+    width: 164px;
+    height: 36px;
+    margin-left: -16%;
+}
+header button{
+    margin-top: 10px;
+    width: 175px;
+    height: 42px;
+    border: 1px solid #8276FF;
+    border-radius: 131px;
+    color: wheat;
+    margin-right: -14%;
+    background-color: #100C16;
+}
+
+/* SECTION 1 */
+
+.sect1{
+    margin-top: 121px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.textDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 500px;
+}
+.saveBtn{
+    width: 170px;
+    height: 54px;
+    color: white;
+    background: #8276FF;
+    border-radius: 31.0938px;
+}
+.CapCrwGet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}
+.img3{
+    margin-top: -25px;
+}
+
+/* SECTION 2 */
+
+.benefit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:40px ;
+}
+.benefit img{
+    width: 600px;
+}
+
+.saleDiv{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.saleDiv img{
+    width: 500px;
+    margin: 40px;
+}
+.compDiv{
+    margin-top: 100px;
+}
+.compDiv img{
+
+    width: 100%;
+}
+
+
+
+/* SECTION 3 */
+
+
+.sect3{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sect3Div {
+    display: flex;
+    justify-content: center;
+}
+
+.caruselDiv{
+    background-image: url("Rectangle 3351.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 900px;
+    height: 600px;
+    margin-top: 100px;
+  
+}
+
+.menuDiv{
+    margin-top: 20px;
+    padding: 10px;
+    width: 90%;
+    display: flex;
+    justify-content:space-between;
+    border-bottom: 1px solid white;
+    background-color: rgba(255, 0, 0, 0);
+    margin-left: 40px;
+    height: 120px;
+}
+.menu1{
+    margin-left: -10px;
+    border-bottom: 5px solid white;
+    margin-bottom: -12px;
+
+}
+.menu2,.menu3,.menu4,.menu5,.menu6{
+    filter: blur(1px);
+}
+.menuDiv img{
+    padding-bottom: 5px;
+    margin-bottom: -12px;
+    cursor: pointer;
+    transition: filter 1s,border 1s;
+}
+.menu6{
+    margin-right: -12px ;
+}
+.infoDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 2s;
+}
+
+.infoDiv1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 200px;
+    justify-content: space-evenly;
+}
+
+.bigInfo{
+    width: 400px;
+}
+.miniInfo1{
+    width: 150px;
+}
+.miniInfo2{
+    width: 140px;
+}
+.miniInfo3{
+    width: 160px;
+}
+.miniInfo4{
+    width: 110px;
+}
+
+.infoDiv2 img{
+    width: 400px;
+    
+}
+.infoDiv2{
+    margin-top: 100px;
+}
+
+.inf2 , .inf3 , .inf4 ,  .inf5 , .inf6{
+
+    display: none;
+}
+
+
+
+
+
+
+
+/* SECTION 4 */
+
+.sect4{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.sect4div1{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 90%;
+    flex-wrap: wrap;
+}
+.sect4div1 img{
+    border: 1px solid green;
+    width: 150px;
+    margin: 10px;
+}
+.sect4div2 img{
+    border: 1px solid green;
+    width: 150px;
+    margin: 10px;
+}
+.sect4div2{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+/* FOOTER */
+
+footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    background-image: url("Group 1000001247.png") , url("Rectangle 2204.png");
+    background-position: right -200px  top -50px,center;
+    background-repeat: no-repeat;
+    background-size: auto,cover;
+    position: relative;
+}
+
+footer div img{
+    width: 300px;
+    height: 34px;
+    filter: drop-shadow(0px 0px 5px  black);
+
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
+footer div button{
+    margin-top: 30px;
+    width: 200px;
+    height: 54px;
+    color: white;
+    background: #8276FF;
+    border-radius: 31.0938px;
+    border: none;
+}
+
+@media  screen and (max-width:1320px){
+    .off50 img{
+        width: 400px;
+    }
+    .img1{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:1100px){
+    .saleDiv{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:900px){
+
+    .caruselDiv{
+        width: 420px;
+        height: 600px;
+        background-size: cover;
+        border-radius: 10px;
+    }
+    .menuDiv img{
+      height: 76px;
+    }
+    .infoDiv{
+      flex-direction: column;
+    }
+    .menuDiv{
+       margin-left: 10px;
+       border-bottom: none;
+    }
+    .infoDiv2{
+        margin-top: 0;
+    }
+    
+}
+
+@media  screen and (max-width:830px){
+    .off50 img{
+        width: 100%;
+    }
+    .img1{
+        width: 400px;
+    }
+    .textDiv{
+        margin: 20px;
+    }
+}
+
+@media  screen and (max-width:600px){
+    .sect1{
+        flex-direction: column;
+    }
+    .saleDiv img{
+        width: 80%; 
+        margin: 0;
+    }
+    .benefit img{
+        width: 80%;
+    }
+    footer{
+        position: static;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer div{
+        position: static;
+    }
+    .compDiv{
+        display: none;
+    }
+    header{
+        justify-content: space-evenly
+    }
+   
+}
+
+@media  screen and (max-width:415px){
+    header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header img{
+        margin-right: -80px;
+    }
+    .textDiv{
+        width: 320px;
+    }
+    .textDiv{
+        align-items: center;
+       margin: 0
+    }
+    .img1{
+        width: 320px;
+    }
+    .img4{
+        width: 320px;
+    }
+    .CapCrwGet{
+        flex-direction: column;
+        height: 200px;
+        width: 310px;
+    }
+    .saleDiv img{
+        width: 320px;
+        
+    }
+    .benefit img{
+        width: 320px;
+       
+    }
+    .compDiv {
+       display: none;
+    }
+    .caruselDiv{
+        display: none;
+    }
+    .sect3Div img{
+        display: none;
+    }
+    .sect4{
+        margin: 0;
+    }
+    .sect4 img{
+        width: 310px;
+    }
+    .sect4div1{
+        margin: 0;
+    }
+    .off50{
+        width: 320px;
+    }
+    footer{
+        background-position: center ,center;
+    }
+}
